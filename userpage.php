@@ -53,7 +53,7 @@ session_start();{
                     <img src="./userphotos/<?php echo $row['image_name']?>" alt="Image" style='width:372px;height:230px;object-fit:cover;' >
                     <figcaption class="d-flex align-items-center justify-content-center" style="font-size:10px;">
                         <h2>Uploaded by <?php echo $row['name']?></h2>
-                        <a href="photo-detail.html">View more</a>
+                       <a href="./userphotos/<?php echo $row['image_name']?>">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
